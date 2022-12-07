@@ -5,12 +5,12 @@ if __name__ == "__main__":
 
     if line == 0:
         print("{} arguments.".format(line))
-         elif line == 1:
+    elif line == 1:
              print("{} argument:".format(line))
-         else:
+    else:
              print("{} arguments:".format(line))
 
-             if line >= 1:
+    if line >= 1:
                  line = 0
                  for arg in sys.argv:
                      if line != 0:
